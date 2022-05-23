@@ -1,5 +1,7 @@
 # Fork to reproduce results of Taming transformers 
 
+_To reproduce results use either the **notebook** or the **Docker container** links below. The notebook downloads a frozen working environment (using conda-pack), including all required models, to reproduce results. The docker container also leverages this conda-packed environment.
+
 ## Google colab notebook
 [Reproducible results of taming transformers](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb) 
 
