@@ -172,8 +172,6 @@ def load_models_and_compare(params):
     print("Saving image into file:",params.output)
     img.save(params.output)
     print("Saving image into file: ",params.output," complete")
-   # with open("ajit.txt","w") as fp:
-   #     fp.write("This is from inside container\n")
 
 
 if __name__ == '__main__':
