@@ -1,3 +1,8 @@
+# Fork of Taming transformers
+
+[Reproducible results of taming transformers](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb) 
+
+
 # Taming Transformers for High-Resolution Image Synthesis
 ##### CVPR 2021 (Oral)
 ![teaser](assets/mountain.jpeg)
