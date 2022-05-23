@@ -1,10 +1,11 @@
 # Fork to reproduce results of Taming transformers 
 
-## Google colab 
+## Google colab notebook
 [Reproducible results of taming transformers](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb) 
 
 ## Docker container ( _for training_ )
 docker pull twc2022/taming_transformers_cpu
+
 
 --------------------------------------------
 
