@@ -9,8 +9,12 @@ _**Note:** Conda-pack was performed on Ubuntu 20.04.4 LTS. The target OS needs t
 
 _**Limitations**: Reproducibiltiy is achieved by using conda-packed enviromment which needs to be run prior to execution of any code in the repository. This imposes a level of indirection in interactive coding. Edits to python code needs to be made in a python file. The notebook cell merely serves as a command line tool to execute the python file or function._
 
-## Docker container ( _for training_ )
-docker pull twc2022/taming_transformers_cpu
+## Docker container ( _for training_ ) 
+
+[![dockeri.co](https://dockeri.co/image/twc2022/taming_transformers_cpu)](https://hub.docker.com/r/twc2022/taming_transformers_cpu)
+
+_docker pull twc2022/taming_transformers_cpu_
+
 
 
 --------------------------------------------
