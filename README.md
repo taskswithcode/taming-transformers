@@ -13,7 +13,7 @@ _To reproduce results, use either the **notebook** or the **Docker container** l
 
 _1. Conda-pack was performed on Ubuntu 20.04.4 LTS. The target OS needs to be the same for the notebook to work. This limitation is not there for the docker container even though conda-pack is used in its creation, given the container abstraction wrapped around it_
 
-_2. Reproducibility is achieved by using conda-packed enviromment which needs to be run prior to execution of any code in the repository. This imposes a level of indirection in interactive coding. Edits to python code needs to be made in a python file. The notebook cell merely serves as a command line tool to execute the python file or function._
+_2. Reproducibility is achieved by using conda-packed enviromment which needs to be run prior to execution of any code in the repository. This imposes a level of indirection in interactive coding in the notebook. Edits to python code needs to be made in a python file. The notebook cell merely serves as a command line interface to execute the python file or function._
 
 ## Docker container
 
