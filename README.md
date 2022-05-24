@@ -1,6 +1,6 @@
 # Fork to reproduce results of Taming transformers 
 
-_This fork addresses the problem of Gitbub repos (including their notebooks) breaking over time  due to updates on the dependent packages. This problem is circumvented by taking the environment snapshot of a working version_
+_This fork addresses the problem of Github repos (including their notebooks) breaking over time  due to updates on the dependent packages. This problem is circumvented by taking the environment snapshot of a working version_
 
 _To reproduce results, use either the **notebook** or the **Docker container** links below. The notebook downloads a working environment snapshot (using conda-pack), including all required models. The docker version is essentially the same environment packaged in a container._
 
