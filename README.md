@@ -7,6 +7,8 @@ _To reproduce results use either the **notebook** or the **Docker container** li
 
 _**Note:** Conda-pack was performed on Ubuntu 20.04.4 LTS. The target OS needs to be the same for this to work. This limitation is not there for the docker container even though conda-pack is used in its creation, given the container abstraction wrapped around it_
 
+_**Limitations**: Reproducibiltiy is achieved by using conda-packed enviromment which needs to be run prior to execution of any code in the repository. This imposes a level of indirection in interactive coding. Edits to python code needs to be made in a python file. The notebook cell merely serves as a command line tool to execute the python file or function._
+
 ## Docker container ( _for training_ )
 docker pull twc2022/taming_transformers_cpu
 
