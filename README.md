@@ -13,7 +13,11 @@ _**Limitations**: Reproducibiltiy is achieved by using conda-packed enviromment 
 
 [![dockeri.co](https://dockeri.co/image/twc2022/taming_transformers_cpu)](https://hub.docker.com/r/twc2022/taming_transformers_cpu)
 
+_**To download the containter**_
 _docker pull twc2022/taming_transformers_cpu_
+
+_**Command line interaction with the repository once the image is pulled**_
+_docker run -it --rm --entrypoint=/bin/bash twc2022/taming_transformers_cpu:1.0_
 
 
 
