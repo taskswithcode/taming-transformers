@@ -11,6 +11,22 @@
 <br/>
 <br/>
 
+## Taming Transformers - reproduction
+  This is a fork of [Taming Transformers](Taming-Transformers-for High-Resolution-Image-Synthesis). The codebook construction and reconstruction from codebook is reproduced. 
+
+## Table of contents
+
+- [Quick start](#Taming-Transformers)
+- [Status](#status)
+- [What's included](#whats-included)
+- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Documentation](#documentation)
+- [Contributing](#contributing)
+- [Community](#community)
+- [Versioning](#versioning)
+- [Creators](#creators)
+- [Thanks](#thanks)
+- [Copyright and license](#copyright-and-license)
 
 # Fork to reproduce results of Taming transformers 
 
