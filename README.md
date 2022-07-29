@@ -43,7 +43,7 @@ _The notebook downloads a working environment snapshot (made using conda-pack), 
 **3. How do I use the docker image?**
 
 
-  _To download the containter_
+  _To download the container_
 
   ```
   docker pull twc2022/taming_transformers_cpu
