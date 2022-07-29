@@ -12,11 +12,11 @@
 <br/>
 
 ## Taming Transformers - reproduction
-  This is a fork of [Taming Transformers](Taming-Transformers-for High-Resolution-Image-Synthesis). The codebook construction and reconstruction from codebook is reproduced. 
+  This is a fork of [Taming Transformers](#taming-transformers-for-high-resolution-image-synthesis). The codebook construction and reconstruction from codebook is reproduced. 
 
 ## Table of contents
 
-- [Quick start](#Taming-Transformers)
+- [Quick start](#taming-transformers-for-high-resolution-image-synthesis)
 - [Status](#status)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
