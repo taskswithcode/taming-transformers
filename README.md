@@ -6,56 +6,56 @@
   </a>
 </p>
 
-<h3 align="center">Taming Trasformers - first stage</h3>
-<h5 align="center">Reconstruction capabilities of different models after transforming input image to a codebook</h5>
+<h3 align="center">Taming Transformers - image reconstruction from codebook</h3>
+<h5 align="center"><i>Images above illustrate reconstruction capabilities of different models after transforming input image to a codebook</i></h5>
 <br/>
 <br/>
 
-## Taming Transformers - reproduction
-  This is a fork of [Taming Transformers](#taming-transformers-for-high-resolution-image-synthesis). The codebook construction and reconstruction from codebook is reproduced. 
+### What can I use this model for?
+  [Taming Transformers](#taming-transformers-for-high-resolution-image-synthesis) describes a method to convert any image into a discrete codebook _( a first stage step)_. This discrete representation of codes is then used for downstream tasks _(second stage)_ like image generation _(e.g. given an initial sequence of tokens representing an image syntheisize the remaining; or condition image generation based on a label)_.  **_The utility of these discrete representations for discriminative tasks (e.g. classification) is yet to be proven_**
+ 
+ This fork reproduces the first stage - Transforming an input image to a codebook and then reconstructing image back from codebook. The reproduced snapshot is used in the [Google Colab notebook](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb) and [docker image](https://hub.docker.com/r/twc2022/taming_transformers_cpu)
 
-## Table of contents
+### Table of contents
 
-- [Quick start](#taming-transformers-for-high-resolution-image-synthesis)
-- [Status](#status)
-- [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Community](#community)
-- [Versioning](#versioning)
-- [Creators](#creators)
-- [Thanks](#thanks)
-- [Copyright and license](#copyright-and-license)
-
-# Fork to reproduce results of Taming transformers 
-
-_This fork addresses the problem of Github repos (including their notebooks) breaking over time  due to updates on the dependent packages. This problem is circumvented by taking the environment snapshot of a working version_
-
-_To reproduce results, use either the **notebook** or the **Docker container** links below. The notebook downloads a working environment snapshot (using conda-pack), including all required models. The docker version is essentially the same environment packaged in a container._
+- [Original repo](#taming-transformers-for-high-resolution-image-synthesis)
+- [FAQ](#faq)
+- [Google Colab link](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb)
+- [Docker Link](https://hub.docker.com/r/twc2022/taming_transformers_cpu)
 
 
 
-## Google colab notebook
-[Reproducible results of taming transformers](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/taskswithcode/taming-transformers/blob/master/TWCTamingTransformer.ipynb) 
+### FAQ
 
-**Limitations**:
+**1. Why reproduce and freeze an existing result?** 
 
-_1. Conda-pack was performed on Ubuntu 20.04.4 LTS. The target OS needs to be the same for the notebook to work. This limitation is not there for the docker container even though conda-pack is used in its creation, given the container abstraction wrapped around it_
+_Reproduction and freezing addresses the problem of Github repos (including their notebooks) breaking over time  due to updates on the dependent packages. This problem is circumvented by taking the environment snapshot of a working version_
 
-_2. Reproducibility is achieved by using conda-packed enviromment which needs to be run prior to execution of any code in the repository. This imposes a level of indirection in interactive coding in the notebook. Edits to python code needs to be made in a python file. The notebook cell merely serves as a command line interface to execute the python file or function._
+_The notebook downloads a working environment snapshot (made using conda-pack), including all required models. The docker version is essentially the same environment packaged in a container._
 
-## Docker container
+**2. What are the limitations?**
 
-[![dockeri.co](https://dockeri.co/image/twc2022/taming_transformers_cpu)](https://hub.docker.com/r/twc2022/taming_transformers_cpu)
 
-_**To download the containter**_
+  _1. Conda-pack was performed on Ubuntu 20.04.4 LTS. The target OS needs to be the same for the notebook to work. This limitation is not there for the docker container even though conda-pack is used in its creation, given the container abstraction wrapped around it_
 
-_docker pull twc2022/taming_transformers_cpu_
+  _2. Reproducibility is achieved by using conda-packed enviromment which needs to be run prior to execution of any code in the repository. This imposes a level of indirection in interactive coding in the notebook. Edits to python code needs to be made in a python file. The notebook cell merely serves as a command line interface to execute the python file or function._
 
-_**Command line interaction with the repository once the image is pulled**_
+**3. How do I use the docker image?**
 
-_docker run -it --rm --entrypoint=/bin/bash twc2022/taming_transformers_cpu:1.0_
+
+  _To download the containter_
+
+  ```
+  docker pull twc2022/taming_transformers_cpu
+  ```
+
+  _Command line interaction with the repository once the image is pulled_
+
+  ```
+  docker run -it --rm --entrypoint=/bin/bash twc2022/taming_transformers_cpu:1.0
+  ```
+
+  [![dockeri.co](https://dockeri.co/image/twc2022/taming_transformers_cpu)](https://hub.docker.com/r/twc2022/taming_transformers_cpu)
 
 
 
