@@ -1,3 +1,5 @@
+<br/>
+<br/>
 <p align="center">
   <a href="taming_main.png">
     <img src="taming_main.png" alt="Bootstrap logo">
@@ -8,8 +10,7 @@
 <h5 align="center">Reconstruction capabilities of different models after tranforming input image to a codebook</h5>
 <br/>
 <br/>
-<br/>
-<br/>
+
 
 # Fork to reproduce results of Taming transformers 
 
