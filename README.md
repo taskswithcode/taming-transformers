@@ -1,3 +1,16 @@
+<p align="center">
+  <a href="https://getbootstrap.com/">
+    <img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+  </a>
+</p>
+
+<h3 align="center">Taming Trasformers - first stage</h3>
+<h5 align="center">Comparison of reconstruction capabilities of models after tranforming input image to a codebook first stage</h5>
+<br/>
+<br/>
+<br/>
+<br/>
+
 # Fork to reproduce results of Taming transformers 
 
 _This fork addresses the problem of Github repos (including their notebooks) breaking over time  due to updates on the dependent packages. This problem is circumvented by taking the environment snapshot of a working version_
