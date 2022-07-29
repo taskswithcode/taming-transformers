@@ -5,7 +5,7 @@
 </p>
 
 <h3 align="center">Taming Trasformers - first stage</h3>
-<h5 align="center">Comparison of reconstruction capabilities of models after tranforming input image to a codebook first stage</h5>
+<h5 align="center">Reconstruction capabilities of different models after tranforming input image to a codebook</h5>
 <br/>
 <br/>
 <br/>
