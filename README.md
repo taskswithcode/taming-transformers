@@ -1,8 +1,18 @@
 <br/>
 <br/>
 <p align="center">
+  <a href="taming2.png">
+    <img src="taming2.png" alt="Bootstrap logo">
+  </a>
+</p>
+<p align="center">
   <a href="taming_main.png">
     <img src="taming_main.png" alt="Bootstrap logo">
+  </a>
+</p>
+<p align="center">
+  <a href="taming3.png">
+    <img src="taming3.png" alt="Bootstrap logo">
   </a>
 </p>
 
